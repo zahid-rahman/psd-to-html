@@ -1,0 +1,131 @@
+/* *** navigation and header design start *** */
+
+.top-header{
+    background:#333;
+    height: 150px;
+}
+
+.top-header .logo{
+    padding:50px;
+    text-align:center;
+}
+
+.menu ul{
+    text-align: center;
+}
+
+.menu ul li{
+    list-style:none;
+    display: inline;
+    
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    /* padding:40px; */
+    display: inline-block;
+    margin-top:0px;
+    padding: 63px 10px;
+    color:#fff;
+    transition: 0.5s;
+
+    
+}
+
+.menu ul li a:hover{
+    background:#db273c;
+    color:#fff;
+
+}
+/* *** navigation and header design end *** */
+
+/* *** slider design/ hero area design start *** */
+
+
+.hero-area{
+    background: #403c3c;
+    padding :40px;
+}
+
+.slider-content{
+    color : #fff;
+}
+
+.slider-content h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+
+.slider-content a{
+    padding: 10px 30px;
+    color:#fff;
+    background:#db273c;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top:20px;
+    display: block;
+    width: 40%;
+    text-align: center;
+    transition:0.5s;
+}
+
+
+.slider-content a:hover{
+    background:#9e1d2c;
+}
+
+.slider-image{
+    text-align:center;
+}
+
+/* *** slider design/ hero area design end *** */
+
+
+/* *** post area content start *** */
+.post-content{
+    text-align:center;
+    padding:40px;
+} 
+
+
+.title{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#db273c;
+}
+
+.title p span{
+    color:#333;
+}
+
+.image img{
+    width:100%;
+    padding:10px;
+}
+
+.more-button{
+    padding: 10px 30px;
+    color:#fff;
+    background:#db273c;
+    text-decoration: none !important;
+    border-radius: 10px;
+    margin-top:20px;
+    display: block;
+    width: 60%;
+    text-align: center;
+    transition:0.5s;
+    margin:2px auto;
+    
+}
+
+.more-button:hover{
+    background:#9e1d2c;   
+    color:#fff;
+}
+
+/* *** post area conent end *** */
+
+/*# sourceMappingURL=style.css.map */
