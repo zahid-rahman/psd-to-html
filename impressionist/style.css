@@ -271,6 +271,7 @@
     border:none;
     border-radius:5px;
     height:180px;
+    color:#fff;
 
 }
 
@@ -319,6 +320,15 @@ footer{
 .second-segment{
     color :#fff;
     text-align: right;
+}
+
+.owner-link{
+    color: #db273c;
+    text-decoration: none !important;
+}
+
+.owner-link:hover{
+    color : #db273c;
 }
 
 
