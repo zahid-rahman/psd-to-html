@@ -1,7 +1,7 @@
 /* *** navigation and header design start *** */
 
 .top-header{
-    background:#333;
+    background:#232425;
     height: 150px;
 }
 
@@ -179,9 +179,9 @@
 
 .widget-read-more-btn{
     display:block;
-    text-align: right;
-    width: 60%;
-    margin-left:auto;
+    text-align: left;
+    width: 30%;
+    margin-right:auto;
     text-decoration: none !important;
     color:#db273c;
 
