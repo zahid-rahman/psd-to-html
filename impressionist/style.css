@@ -151,9 +151,155 @@
 }
 
 
-
-
 /* *** second section conent end *** */
+
+
+
+
+/* *** footer widget design conent start *** */
+.footer-widget{
+    padding:40px;
+    background:#ecedee;
+}
+
+.widget-one .widget-title p, .widget-two .widget-title p, .widget-three .widget-title p, .widget-four .widget-title p{ 
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.widget-content p {
+    padding-top:20px
+
+}
+
+.widget-image img{
+    width:100%;
+}
+
+.widget-read-more-btn{
+    display:block;
+    text-align: right;
+    width: 60%;
+    margin-left:auto;
+    text-decoration: none !important;
+    color:#db273c;
+
+}
+
+
+.widget-read-more-btn:hover{
+    color:#db273c;
+}
+
+
+
+.links ul{
+    padding:0px;
+}
+
+.links ul li{
+    /* display:block; */
+    list-style:none;
+    padding: 0px 0px 25px 0px;
+    /* border-bottom: 1px solid #aba8a7; */
+}
+
+.links ul li a{
+    color:#db273c;
+    text-decoration: none;
+    text-align: right;
+
+}
+
+.widget-post .widget-single-post .wid-post-title{
+    color:#db273c;
+    font-size: 25px;
+}
+
+.widget-post .widget-single-post .wid-post-read-btn{
+    display:block;
+    text-align: right;
+    padding-top:20px;
+    width: 60%;
+    margin-left:auto;
+    text-decoration: none !important;
+    color:#db273c;
+}
+
+
+.widget-post .widget-single-post .post-date{
+    margin-top:-8px;
+    display: block;
+}
+
+.widget-post .widget-single-post .wid-post-content{
+    padding-top:20px;
+}
+
+.contact-form input[type = 'text']{
+    margin-top:10px;
+    width:100%;
+    background: #333;
+    padding :10px 10px;
+    border:none;
+    border-radius:5px;
+    color:#fff;
+
+}
+
+.contact-form input[type = 'email']{
+    margin-top:10px;
+    width:100%;
+    background: #333;
+    padding :10px 10px;
+    border:none;
+    border-radius:5px;
+    color:#fff;
+
+}
+
+.contact-form input:focus{
+    outline : none;
+}
+
+.contact-form textarea{
+    margin-top:10px;
+    width:100%;
+    background: #333;
+    padding :5px 10px;
+    border:none;
+    border-radius:5px;
+    height:180px;
+
+}
+
+.contact-form textarea:focus{
+    outline : none;
+}
+
+.contact-form input[type = 'submit']{
+    margin-top:10px;
+    padding: 10px 0px;
+    color:#fff;
+    background:#db273c;
+    text-decoration: none !important;
+    border-radius: 10px;
+    display: block;
+    width: 30%;
+    text-align: center;
+    transition:0.5s;
+    border:transparent;
+    
+}
+
+::placeholder{
+    color :#fff;
+}
+
+
+
+/* *** footer widget design conent end *** */
 
 
 /*# sourceMappingURL=style.css.map */
