@@ -295,12 +295,35 @@
 
 ::placeholder{
     color :#fff;
-    
+
 }
 
 
 
 /* *** footer widget design conent end *** */
+
+
+
+/* *** footer design conent start *** */
+
+footer{
+    padding:20px 20px 0px 20px;
+    background: #333;
+}
+
+
+.first-segment{
+    color : #fff;
+}
+
+.second-segment{
+    color :#fff;
+    text-align: right;
+}
+
+
+
+/* *** footer design conent end *** */
 
 
 /*# sourceMappingURL=style.css.map */
