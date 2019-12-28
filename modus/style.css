@@ -2,6 +2,7 @@
 
 body{
     overflow-x:hidden;
+    background:#f3f3f3 !important;
 }
 /* global code for this web template end  */
 
@@ -170,6 +171,42 @@ nav ul li:nth-child(8)>a:hover{
     border-radius: 5px;
 }
 /* slider design end */
+
+
+
+/* service title panel start  */
+.service-panel-content{
+    background : #ececec;
+    padding :20px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.panel-content h3{
+    font-weight: 700;    
+}
+.service-panel-view-button{
+    background: #e2534b;
+    padding : 10px 20px;
+    color : #fff !important;
+    text-decoration: none !important;
+    border-radius: 5px;
+    margin-top:20px;
+    display: block;
+    width: 90%;
+    text-align: center;
+
+}
+
+
+/* service title panel end  */
+
+
+/* service section start  */
+.service-section{
+    padding: 50px 0px;
+    text-align: center;
+}
+/* service section end */
 
 
 /*# sourceMappingURL=style.css.map */
