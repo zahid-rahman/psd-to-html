@@ -1,4 +1,8 @@
 /* global code for this web template start  */
+
+body{
+    overflow-x:hidden;
+}
 /* global code for this web template end  */
 
 
@@ -6,7 +10,7 @@
 header{
     background:#76c7c0;
     margin:5px 0px;
-    /* padding:15px 0px 0px 0px; */
+    padding:15px 0px 0px 0px;
 }
 
 .top-header .logo{
@@ -31,7 +35,7 @@ nav ul li a{
     text-decoration:none !important;
     display:inline-block;
     color: #fff;
-    padding : 5px 20px;
+    padding : 5px 10px;
     text-align: center;
     letter-spacing: 1;
     border-radius: 5px;
@@ -62,7 +66,7 @@ nav ul li:nth-child(8)>a:hover{
     display:none;
 }
 .slick-prev:before, .slick-next:before { 
-    color:black !important;
+    color:#fff !important;
 }
 
 
@@ -71,9 +75,99 @@ nav ul li:nth-child(8)>a:hover{
 
 
 /* slider design start  */
+.slider{
+    margin-top:-5px;
+}
 .slider div{
     height: 400px;
-    /* width:100%; */
+}
+.slick-prev.slick-arrow {
+    z-index: 1;
+  }
+  .slick-prev {
+    margin-left: 20px;
+  }
+
+  .slick-next {
+    margin-right: 20px;
+    border-radius:10px 0px 0px 10px;
+  }
+
+  .slick-prev.slick-arrow {
+    background: #e2534b;
+    padding : 30px;
+    border-radius:0px 10px 10px 0px;
+
+    
+  }
+
+  .slick-next.slick-arrow {
+    background: #e2534b;
+    padding : 30px;
+
+  }
+
+  .slick-prev.slick-arrow:hover{
+    background: #e2534b;
+    padding : 30px;
+  }
+
+  .slick-next.slick-arrow:hover {
+    background: #e2534b;
+    padding : 30px;
+
+  }
+
+  .slick-prev.slick-arrow:focus{
+    background: #e2534b;
+    padding : 30px;
+    outline:none;
+  }
+
+  .slick-next.slick-arrow:focus {
+    background: #e2534b;
+    padding : 30px;
+    outline:none;
+
+  }
+
+  
+  .slick-prev::before{
+	font-size: 30px !important;
+	display: block;
+	margin:-15px 0px 0px -13px;
+}
+
+
+ .slick-next::before {
+	font-size: 30px !important;
+	display: block;
+	margin: -17px 0px 0px -9px;
+}
+
+.slider-title{
+    z-index: 1;
+    text-align: center;
+    /* margin-top:100px; */
+    font-size:50px; 
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#fff;
+    background:#e2534b;
+    width: 50%;
+    margin:140px auto;
+    border-radius: 5px;
+}
+
+.slider-taglines{
+    background : #333;
+    text-align: center;
+    width: 30%;
+    margin:auto;
+    margin-top:-130px;
+    padding :30px;
+    color:#fff;
+    border-radius: 5px;
 }
 /* slider design end */
 
