@@ -6,7 +6,7 @@
 header{
     background:#76c7c0;
     margin:5px 0px;
-    padding:15px 0px 0px 0px;
+    /* padding:15px 0px 0px 0px; */
 }
 
 .top-header .logo{
@@ -61,8 +61,21 @@ nav ul li:nth-child(8)>a:hover{
 .search-field{
     display:none;
 }
+.slick-prev:before, .slick-next:before { 
+    color:black !important;
+}
+
 
 /* top header navigation end  */
+
+
+
+/* slider design start  */
+.slider div{
+    height: 400px;
+    /* width:100%; */
+}
+/* slider design end */
 
 
 /*# sourceMappingURL=style.css.map */
