@@ -1,0 +1,73 @@
+
+
+
+@media screen and (max-width : 991px){
+    .slicknav_menu{
+        display:block;
+    }
+
+    #menu{
+        display:none;
+    }
+
+    .slicknav_menu {
+        background: #232425 !important;
+        position: absolute;
+        z-index:1000;
+        right:0;
+   
+        
+    }
+    .slicknav_btn {
+        margin: 50px 20px 0px 0px !important;
+    }
+
+    .slicknav_nav{
+        width:250px;
+        text-align: center;
+
+    }
+
+    .slicknav_nav a{
+        transition:0.5s;
+    }
+
+    .slicknav_nav a:hover{
+        background:#db273c !important;
+        color:#fff !important;
+    }
+
+    .slicknav_nav a:focus{
+        outline:none;
+    }
+  
+
+
+}
+
+
+@media screen and (max-width : 767px){
+    .slider-image img{
+        display:none;
+    }
+
+    .slider-content{
+        text-align: center;
+    }
+
+    .slider-content a{
+        margin: 10px auto;
+    }
+}
+
+
+
+@media screen and (max-width : 767px){
+    .first-segment{
+        text-align: center;
+    }
+
+    .second-segment{
+        text-align: center;
+    }
+}

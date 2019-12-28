@@ -1,3 +1,6 @@
-$('#res-nav').slicknav({
-    label:'MENU',
+
+$(document).ready(function($){
+    $('#menu').slicknav({
+        label:'',
+    });
 });

@@ -17,19 +17,19 @@ body{
     text-align:center;
 }
 
-.menu ul{
+nav ul{
     text-align: center;
 }
 
-.menu ul li{
+nav ul li{
     list-style:none;
     display: inline;
     
 
 }
 
-.menu ul li a{
-    text-decoration: none;
+nav ul li a{
+    text-decoration: none !important;
     /* padding:40px; */
     display: inline-block;
     margin-top:0px;
@@ -40,11 +40,23 @@ body{
     
 }
 
-.menu ul li a:hover{
+
+nav ul li a:hover{
     background:#db273c;
     color:#fff;
 
 }
+
+nav ul li a:focus{
+    outline : none;
+}
+
+
+.slicknav_menu{
+    display: none;
+}
+
+
 /* *** navigation and header design end *** */
 
 /* *** slider design/ hero area design start *** */
@@ -125,6 +137,7 @@ body{
     text-align: center;
     transition:0.5s;
     margin:2px auto;
+    margin-bottom:20px;
     
 }
 
