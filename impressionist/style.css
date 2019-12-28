@@ -17,8 +17,13 @@ body{
     text-align:center;
 }
 
+
+.top-header .logo a:focus{
+    outline : none;
+}
+
 nav ul{
-    text-align: center;
+    text-align: right;
 }
 
 nav ul li{
