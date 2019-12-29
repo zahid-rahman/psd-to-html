@@ -2,7 +2,7 @@
 
 body{
     overflow-x:hidden;
-    background:#f3f3f3 !important;
+    background:#f8f8f8 !important;
 }
 /* global code for this web template end  */
 
@@ -205,6 +205,57 @@ nav ul li:nth-child(8)>a:hover{
 .service-section{
     padding: 50px 0px;
     text-align: center;
+}
+
+.service-content{
+    padding:50px 20px;
+    border-radius:10px;
+    transition: .5s;
+    height:350px;
+    width:100%;
+    position: relative;
+    margin-bottom:60px;
+}
+
+
+.service-content i{
+    font-size:40px;
+}
+
+.service-read-more-btn{
+    background:#62bdbd;
+    padding:20px 40px;
+    /* margin-top:-10px !important; */
+    display:block;
+    text-decoration: none !important;
+    color:#ffffff;
+    border-radius: 10px;
+    width:85%;
+    margin:5px auto;
+    transition:0.5s;
+    position: absolute;
+    bottom:-40px;
+}
+
+
+.service-title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    color: #7f8c8c;
+    padding:20px 0px 10px 0px;
+}
+
+.service-content:hover{
+    background : #ffffff;
+    color:#e2534b;
+    
+}
+
+
+.service-content:hover .service-read-more-btn{
+    background:#e2534b;
+    color: #fff;
 }
 /* service section end */
 
