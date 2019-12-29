@@ -260,4 +260,51 @@ nav ul li:nth-child(8)>a:hover{
 /* service section end */
 
 
+/* promotional area design start  */
+
+.promotional-section{
+    padding : 50px 0px;
+}
+.promotional-title{
+    text-align: center;
+}
+
+.promotional-title h1{
+    font-weight: 700;
+    color:#e2534b;
+}
+
+.promotional-title p{
+    display:inline;
+    /* margin-top:-100px; */
+}
+
+.promotional-image img{
+    margin:40px 0px;
+}
+
+
+.side-promotion-bar h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.side-promotion-bar ul{
+    padding:0px;
+}
+
+.side-promotion-bar ul li{
+    list-style:none;
+}
+
+.side-promotion-bar ul li a{
+    font-size: 13px;
+}
+
+
+
+/* promotional area design end  */
+
+
 /*# sourceMappingURL=style.css.map */
