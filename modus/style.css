@@ -3,6 +3,8 @@
 body{
     overflow-x:hidden;
     background:#f8f8f8 !important;
+    /* font-size:13px; */
+    /* font-family: "Open Sans"; */
 }
 /* global code for this web template end  */
 
@@ -286,8 +288,9 @@ nav ul li:nth-child(8)>a:hover{
 
 .side-promotion-bar h3{
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 19.2px;
+    color:#777777;
 }
 
 .side-promotion-bar ul{
@@ -300,8 +303,25 @@ nav ul li:nth-child(8)>a:hover{
 
 .side-promotion-bar ul li a{
     font-size: 13px;
+    text-decoration: none;
+    color:#777777;
 }
 
+.side-promotion-bar ul li a i{
+    color:#e2534b; 
+}
+
+.side-promotion-bar p{
+    background : #ffffff;
+    padding:10px;
+    margin:15px 0px;
+    font-style:italic;
+}
+
+
+.middle-part p{
+    text-align: center;
+}
 
 
 /* promotional area design end  */
